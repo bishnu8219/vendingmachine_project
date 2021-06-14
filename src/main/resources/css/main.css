@@ -1,0 +1,92 @@
+h1{
+	color:#0000FF;
+}
+
+h2{
+	color:#FF0000;
+}
+
+table {
+  table-layout: fixed;
+}
+
+.row {
+	margin-top: 50px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.menu {
+	height: 100%;
+	position: fixed;
+	background-color: #f8f8f8;
+}
+
+.menu .navbar-nav li {
+	width: 100%;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.progress {
+    display: block;
+    text-align: center;
+    width: 0;
+    height: 7px;
+    background: green;
+    transition: width .3s;
+}
+.progress.hide {
+    opacity: 0;
+    transition: opacity 1.3s;
+}
+
+span.error{
+    color: red;
+    margin-left: 5px;
+}
+ 
+datatable td span{
+    max-width: 400px;
+    display: block;
+    overflow: hidden;
+}
+
+narrow {
+  padding: 10px;
+  border: 1px solid;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+table.dataTable tbody td {
+    word-break: break-word;
+    vertical-align: top;
+}
+
+normal {
+  word-break: normal;
+}
+
+breakAll {
+  word-break: break-all;
+}
+
+keepAll {
+  word-break: keep-all;
+}
+
+breakWord { 
+  word-break: break-word; 
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
